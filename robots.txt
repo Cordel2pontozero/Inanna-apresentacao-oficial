@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://cordel2pontozero.github.io/iza-apresentacao-oficial/sitemap.xml
