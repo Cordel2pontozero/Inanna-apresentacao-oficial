@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cordel2pontozero.github.io/inanna-apresentacao-oficial/sitemap.xml
+Sitemap: https://cordel2pontozero.github.io/iza-apresentacao-oficial/sitemap.xml

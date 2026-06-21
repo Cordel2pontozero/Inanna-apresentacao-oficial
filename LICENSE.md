@@ -1,4 +1,4 @@
-# Licenciamento da vitrine Inanna
+# Licenciamento da vitrine IZA
 
 ## Código desta apresentação — MIT License
 

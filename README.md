@@ -1,199 +1,160 @@
 <div align="center">
 
-<img src="https://images.squarespace-cdn.com/content/v1/679647ea404fcd2e5824402c/e4599821-6576-437c-b477-2274244b43c5/Inanna%2BVertical.png" alt="Inanna — Proto-IA Educativa do Laboratório Cordel 2.0" width="620">
+<img src="https://images.squarespace-cdn.com/content/v1/679647ea404fcd2e5824402c/1938d5a3-1a0c-4427-af11-28af5cdc051d/IZA%2Bcapa.png" alt="IZA — Chatbot Reflexivo do Laboratório Cordel 2.0" width="720">
 
-# Inanna — A rima humana vence a previsão
+# IZA — Perguntar para pensar. Pensar para escrever.
 
-### Jogo educativo de cordel, autoria e letramento em inteligência artificial
+### Chatbot reflexivo brasileiro para escrita guiada, autoria e letramento em IA
 
-[![Produção](https://img.shields.io/badge/status-produção-7B2F72)](https://inanna.cordel2pontozero.com)
-[![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)](https://vite.dev/)
+[![Status](https://img.shields.io/badge/status-controlled%20production-B55A30)](#estado-do-produto)
 [![Supabase](https://img.shields.io/badge/backend-Supabase-3FCF8E?logo=supabase&logoColor=white)](https://supabase.com/)
-[![Vercel](https://img.shields.io/badge/deploy-Vercel-111111?logo=vercel)](https://vercel.com/)
-[![Autoria](https://img.shields.io/badge/princípio-autoria%20humana-F2A900)](#prever-não-é-criar)
+[![JavaScript](https://img.shields.io/badge/frontend-JavaScript-F7DF1E?logo=javascript&logoColor=111111)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![IA responsável](https://img.shields.io/badge/IA-autoria%20humana-6F3E56)](#ia-com-limites-visíveis)
+[![Conteúdo](https://img.shields.io/badge/conteúdo-CC%20BY--ND%204.0-B55A30)](LICENSE.md)
 
-**Quadras · Previsão explicável · Modo Desafio · Maestria · Peleja · Caderno de Sextilhas**
+**Presenças conversacionais · Trilhas de escrita · Síntese da jornada · Presente literário**
 
-[Experimentar](https://inanna.cordel2pontozero.com) · [Ver apresentação](./docs/APRESENTACAO.md) · [Arquitetura](./docs/ARQUITETURA.md) · [Roadmap](./docs/ROADMAP.md)
+[Ver apresentação](./docs/APRESENTACAO.md) · [Arquitetura](./docs/ARQUITETURA.md) · [Roadmap](./docs/ROADMAP.md) · [Laboratório Cordel 2.0](https://www.cordel2pontozero.com/laboratorio)
 
 </div>
 
 ---
 
-## Prever não é criar
+## IZA não escreve por você
 
-Inanna é uma **proto-IA educativa**: um jogo que torna visível como sistemas computacionais tentam prever a próxima palavra. A pessoa escreve um verso; o motor observa contexto, tema, rima e frequência; depois apresenta candidatos e probabilidades.
+IZA é uma experiência de escrita reflexiva inspirada na história de **ELIZA** e na força pedagógica da **maiêutica socrática**. Seu papel não é produzir uma resposta pronta: é perguntar a partir do que a pessoa diz, devolver pistas e ajudar o texto a encontrar um centro.
 
-A escolha continua aberta:
+> **A conversa não substitui a autoria. Ela cria espaço para que a autoria apareça.**
 
-- aceitar uma sugestão;
-- inspecionar o vetor que a produziu;
-- rejeitar a previsão;
-- inventar uma palavra inesperada;
-- sustentar a rima com uma escolha própria.
+## Uma experiência com presença
 
-> **A rima da história humana ganha mais pontos do que a previsão da máquina.**
+A pessoa pode escolher como deseja ser acompanhada — ou responder a um teste breve que combina as presenças:
 
-## Nível 1 — A oficina da próxima palavra
-
-A experiência combina literatura de cordel e explicação algorítmica:
-
-1. a pessoa escolhe uma trilha e um tema;
-2. escreve um verso;
-3. o sistema separa a palavra final;
-4. o motor calcula candidatos;
-5. a pessoa compara probabilidades;
-6. aceita uma sugestão ou mantém a própria escolha;
-7. fecha uma quadra de quatro versos;
-8. recebe pontuação no Modo Desafio;
-9. pode enviar a criação ao placar.
-
-## Um vetor que pode ser lido
-
-O motor preditivo utiliza cinco dimensões:
-
-| Dimensão | Pergunta didática |
+| Presença | Como acompanha |
 |---|---|
-| **Tema** | A palavra pertence ao campo escolhido? |
-| **Rima esperada** | Ela conversa com o esquema da quadra? |
-| **Pista sintática** | O contexto sugere substantivo, verbo ou adjetivo? |
-| **Coerência** | A escolha mantém relação com os versos anteriores? |
-| **Frequência** | Quanto a palavra aparece no mini-corpus? |
+| **Discreta** | Intervém pouco e preserva silêncio e tempo de elaboração. |
+| **Calorosa** | Acolhe imagens, afetos e hesitações sem assumir o texto. |
+| **Firme** | Faz perguntas diretas e chama atenção para decisões de escrita. |
+| **Minimalista** | Reduz a intervenção ao essencial. |
+| **Híbrida** | Combina pesos das quatro presenças a partir de cinco respostas. |
 
-O modal de vetor mostra o detalhamento em vez de esconder o cálculo atrás de uma resposta mágica.
+Cada presença altera abertura, espelhamento, fechamento, peso das regras e tom das perguntas.
 
-## Pontuação que premia independência
+## Três trilhas de escrita
 
-O Modo Desafio observa:
+### Iniciante
 
-- rima final;
-- esquema sorteado;
-- forma da quadra;
-- criatividade autoral;
-- independência da sugestão;
-- originalidade lexical;
-- ausência de repetição da palavra final.
+Um percurso orientado que ajuda a localizar núcleo, centro, atrito, cena e frase final.
 
-Repetir a mesma palavra não conta como rima criativa. Uma rima surpresa fora do banco local pode receber reconhecimento adicional.
+### Intermediária
 
-## Trilha de Maestria
+Aprofunda tema, concretude, contraste, síntese e forma final.
 
-O Nível 2 pode ser liberado por duas rotas:
+### Inspirada
 
-- cinco quadras perfeitas únicas;
-- conquista das oito marcas de maestria.
+Abre uma conversa mais livre, com memória curta e mínimo de sete rodadas antes do encerramento.
 
-As marcas reconhecem forma, rima, esquema forte, criatividade, independência, ausência de repetição, ausência de falha e domínio de diferentes esquemas.
+## Da conversa ao texto
 
-## Nível 2 — Peleja com Inanna
+Ao final da jornada, a plataforma pode organizar:
 
-A infraestrutura do Nível 2 está implementada e controlada por flags de ambiente. Quando habilitada, a experiência organiza uma peleja em melhor de três:
+- síntese da experiência;
+- palavras-chave;
+- transcript completo;
+- checklist e rubrica;
+- texto final destacado;
+- **presente literário** relacionado às imagens e aos temas da conversa.
 
-- tema e esquema sorteados;
-- quadra inicial do jogador;
-- resposta provocadora da Inanna;
-- oportunidade de melhorar a quadra;
-- avaliação mecânica e por rubricas;
-- decisão do round;
-- resultado da peleja.
+O presente literário não é uma recompensa aleatória. Um motor de curadoria normaliza os termos da jornada, consulta uma base poética, pontua correspondências e aplica guardrails contra combinações fracas ou repetições recentes.
 
-O frontend conversa com um Worker que mantém prompts e chaves fora do navegador. A geração pode usar Maritaca Sabiá-4, com fallback para Workers AI, e a avaliação combina modelo de linguagem com regras de forma e rima.
+## IA com limites visíveis
 
-**Na configuração pública documentada, a IA generativa e o envio social permanecem desligados por ambiente até ativação controlada.**
+A arquitetura atual separa camadas para que automação não vire autoridade:
 
-## Caderno de Sextilhas
+```text
+pessoa autora
+    ↓ traz memória, desejo, conflito e linguagem
+presença conversacional
+    ↓ pergunta, espelha e organiza o percurso
+motor de regras
+    ↓ aplica marcadores socráticos e pesos por trilha
+perfil semântico
+    ↓ registra sinais sem assumir a escrita
+curadoria literária
+    ↓ oferece um fragmento, com guardrails e fallback
+pessoa autora
+    ↓ decide o que permanece, muda ou recomeça
+```
 
-O ecossistema também preserva um espaço de escrita longa:
+A camada avançada de conversa generativa permanece desligada na produção controlada. O progresso público, personas e desbloqueios também não são alterados pelo scoring em dark launch.
 
-- folhetos;
-- rascunhos;
-- textos;
-- versões;
-- histórico;
-- comparação lado a lado;
-- status editorial;
-- feedback de IA reservado para fase posterior.
-
-A escrita não some depois do jogo: ela pode amadurecer como portfólio.
-
-## Engenharia do jogo
+## Engenharia por trás da delicadeza
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
-│ Experiência: quadra · vetor · desafio · maestria · peleja    │
+│ Experiência: presenças · trilhas · síntese · presente        │
 ├──────────────────────────────────────────────────────────────┤
-│ Frontend: HTML · CSS · JavaScript · Vite 7                   │
+│ Frontend: HTML · CSS · JavaScript · máquina de estados       │
 ├──────────────────────────────────────────────────────────────┤
-│ Motores: prediction_engine_v2 · banco local de rimas         │
+│ Regras: marcadores socráticos · memória curta · pesos        │
 ├──────────────────────────────────────────────────────────────┤
-│ Dados: Supabase · Postgres · RPCs · views · RLS              │
+│ Backend: Supabase · Postgres · Edge Functions · RLS          │
 ├──────────────────────────────────────────────────────────────┤
-│ IA controlada: Cloudflare Worker · Maritaca · Workers AI     │
-├──────────────────────────────────────────────────────────────┤
-│ Produção: Vercel · domínio próprio · analytics               │
+│ Segurança: guardrails · fallback · ledger · dark launch      │
 └──────────────────────────────────────────────────────────────┘
 ```
 
-Detalhes nerds com função pedagógica:
+Detalhes técnicos que importam:
 
-- Vite 7 e pnpm;
-- Supabase para check-in, perfil, quadras, placar e caderno;
-- view pública sem e-mail ou campos estatísticos;
-- RPCs para perfil e reações;
-- Row Level Security;
-- importação legada idempotente;
-- runtime config por Edge Function;
-- motor preditivo local e inspecionável;
-- banco lexical de rimas;
-- Worker para o Nível 2;
-- secrets isolados;
-- flags de ativação;
-- Vercel Analytics.
+- Supabase como backend principal de sessões, mensagens, eventos e perfis;
+- Apps Script preservado como fallback congelado do presente literário;
+- máquina de estados no frontend;
+- regras conversacionais versionáveis;
+- persistência e retomada da sessão;
+- normalizador semântico versionado;
+- bloqueio de matches literários fracos;
+- cooldown de poema e autoria;
+- ledger auditável para scoring;
+- relatórios de smoke test, replay e auditoria;
+- Row Level Security nas tabelas centrais.
 
 ## Estado do produto
 
-### Em produção
+### Disponível em produção controlada
 
-- check-in;
-- perfil de primeiro acesso;
-- escolha de tema;
-- motor de previsão;
-- vetor explicável;
-- quadras;
-- Modo Desafio;
-- pontuação;
-- placar;
-- reações;
-- Trilha de Maestria;
-- caderno e versões;
-- Supabase + Vercel.
+- check-in e identidade de participante;
+- quatro presenças fixas e uma híbrida;
+- trilhas iniciante, intermediária e inspirada;
+- motor de regras socráticas;
+- retomada da jornada;
+- síntese, palavras-chave e transcript;
+- presente literário com guardrails;
+- backend Supabase;
+- auditoria de scoring em dark launch.
 
-### Implementado com ativação controlada
+### Deliberadamente desligado
 
-- peleja em três rounds;
-- geração provocadora;
-- avaliação por rubricas;
-- ditado por voz;
-- áudio;
-- liberação condicionada à maestria.
+- barra pública de progresso;
+- desbloqueios e personas públicas;
+- aplicação automática do scoring ao progresso;
+- conversa avançada com Maritaca.
 
-### Planejado ou reservado
+### Próximos passos
 
-- feedback generativo no caderno;
-- envio social por e-mail;
-- léxico local persistente;
-- Nível 3 com coerência narrativa e verossimilhança regional;
-- expansão comunitária.
+- piloto vivo com observação humana;
+- barra beta de progresso;
+- desbloqueios graduais;
+- personas;
+- conversa avançada somente após validação pedagógica e operacional.
 
-## Para quem Inanna foi criada
+## Para quem a IZA foi pensada
 
-- escolas e universidades;
-- oficinas de cordel e hip-hop;
-- bibliotecas e projetos culturais;
-- programas de letramento em IA;
-- formação de educadores;
-- eventos, mostras e laboratórios de escrita;
-- comunidades que desejam compreender algoritmos sem abandonar cultura e autoria.
+- escolas, universidades e bibliotecas;
+- oficinas de escrita e projetos culturais;
+- formação inicial e continuada de educadores;
+- laboratórios de autoria;
+- iniciativas de saúde narrativa e expressão, sem função clínica;
+- programas de letramento em inteligência artificial.
 
 ## Apresentação e origem técnica
 
@@ -201,8 +162,9 @@ Detalhes nerds com função pedagógica:
 - [Arquitetura técnica](./docs/ARQUITETURA.md)
 - [Roadmap](./docs/ROADMAP.md)
 - [SEO e publicação](./docs/SEO_E_REPOSITORIO.md)
-- [Repositório técnico de origem](https://github.com/outcast2020/inanna-0.2)
-- [Aplicativo em produção](https://inanna.cordel2pontozero.com)
+- [Repositório técnico de origem](https://github.com/outcast2020/iza-app)
+
+A versão web desta vitrine está em [`index.html`](./index.html) e pode ser publicada pelo GitHub Pages.
 
 ## Identidade e contato
 
@@ -220,4 +182,4 @@ Salvador — Bahia — Brasil
 
 ## Licenciamento
 
-O código desta vitrine utiliza Licença MIT. Textos institucionais e identidade seguem CC BY-ND 4.0. Os textos criados pelos participantes permanecem de autoria de seus respectivos criadores.
+O código desta vitrine utiliza Licença MIT. Textos institucionais e identidade seguem CC BY-ND 4.0. Consulte [LICENSE.md](LICENSE.md).

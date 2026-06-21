@@ -1,10 +1,10 @@
 {
-  "name": "Inanna — Proto-IA Educativa",
-  "short_name": "Inanna",
-  "description": "Jogo educativo de cordel, autoria e letramento em inteligência artificial.",
+  "name": "IZA — Chatbot Reflexivo",
+  "short_name": "IZA",
+  "description": "Chatbot reflexivo brasileiro para escrita guiada, autoria e letramento em IA.",
   "lang": "pt-BR",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#efe2cc",
-  "theme_color": "#17121f"
+  "background_color": "#f1e4cf",
+  "theme_color": "#21181d"
 }

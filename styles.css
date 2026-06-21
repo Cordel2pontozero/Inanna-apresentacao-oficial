@@ -1,11 +1,11 @@
 :root {
-  --ink: #17121f;
-  --ink-soft: #43384e;
-  --primary: #6c2d73;
-  --secondary: #f4d36e;
-  --accent: #f2a900;
-  --cream: #efe2cc;
-  --paper: #fff7e5;
+  --ink: #21181d;
+  --ink-soft: #4d3d42;
+  --primary: #6f3e56;
+  --secondary: #f1cf91;
+  --accent: #d46b32;
+  --cream: #f1e4cf;
+  --paper: #fff8ea;
   --white: #ffffff;
   --line: color-mix(in srgb, var(--ink) 18%, transparent);
   --shadow: 0 26px 74px color-mix(in srgb, var(--ink) 17%, transparent);
