@@ -1,0 +1,10 @@
+{
+  "name": "Inanna — Proto-IA Educativa",
+  "short_name": "Inanna",
+  "description": "Jogo educativo de cordel, autoria e letramento em inteligência artificial.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#efe2cc",
+  "theme_color": "#17121f"
+}
